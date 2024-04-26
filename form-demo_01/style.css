@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.box{
+    height: 60%;
+    width: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.3)
+}
+
+.form-left{
+    height: 100%;
+    width:40%;
+    background-color: #01d28e;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-left-content{
+    height: 75%;
+    width: 75%;
+    /* background-color: red; */
+}
+.form-right{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    /* height: 70px; */
+    width: 100%;
+    /* background-color: red; */
+    margin-bottom: 25px;
+    margin-top: 30px;
+    display: flex;
+}
+.phone{
+    /* height: 70px; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    margin-bottom: 25px;
+}
+.mail{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    margin-bottom: 5px;
+}
+.website{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    margin-bottom: 5px;
+    display: flex;
+}
+.form-right-content{
+    height: 75%;
+    width: 75%;
+    /* background-color: red; */
+}
+.icon-ring {
+    display: flex;
+    position: relative;
+    width: 50px; /* Adjust the size of the ring */
+    height: 50px; /* Adjust the size of the ring */
+    border: 1px solid #e1dedecc; /* Border color of the ring */
+    border-radius: 50%; /* Makes the border round */
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.input-label{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+input-box{
+    /* width: 100%; */
+    /* width: 400px; */
+    
+}
