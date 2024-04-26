@@ -97,8 +97,40 @@ body{
     font-weight: 600;
 }
 
-input-box{
-    /* width: 100%; */
-    /* width: 400px; */
-    
+.input-box {
+    width: 100%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    /* border: 0px solid; */
+    border-bottom: 1px solid #e1dedecc ;
+    margin-bottom: 12px;
+}
+
+.input-box::placeholder{
+    color:  #999292cc;
+}
+
+.input-box:focus{
+    /* border: none; */
+    /* border-color: 0px solid #007bff; 
+   /* border-bottom: 1px solid #01d28e */
+   border-bottom-color: #01d28e;
+}
+
+.btn{
+    color: white;
+    background-color: #01d28e;
+    border: none;
+    padding: 3%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.btn:hover{
+    background-color: #0a9667;
+    cursor: pointer;
 }
