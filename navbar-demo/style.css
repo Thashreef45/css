@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://preview.colorlib.com/theme/bootstrap/website-menu-03/images/hero_1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    height: 75px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.nav-left{
+    width: 45%;
+    height: 100%;
+    display:flex;
+    align-items:  end;
+    justify-content: center;
+}
+.nav-left p{
+    font-size: x-large;
+    color: white;
+}
+.nav-right{
+    width: 55%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: end;
+}
+
+.nav-elements{
+    height: auto;
+    width: auto;
+    color: white;
+    border-radius: 20px;
+    margin: 4px;
+    margin-bottom: 0;
+    transition: background-color 0.3s ease;
+}
+
+.nav-elements:hover{
+    background-color:#007bff ;
+    cursor: pointer;
+}
+
+.nav-elements p {
+    margin: 8px 22px;
+}
